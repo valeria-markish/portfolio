@@ -71,6 +71,7 @@ p {
 }
 .active {
   color: var(--main-color) !important;
+  opacity: 100% !important;
 }
 .container p {
   margin: 127px 0 82px 0;
