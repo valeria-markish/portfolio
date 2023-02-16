@@ -47,7 +47,8 @@ p {
   padding: 273px 0;
   text-align: center;
 }
-.btn-hero {
+.btn-hero,
+.btn-work {
   background: #6c63ff;
   border: 1px solid #6c63ff;
   color: #ffffff;
@@ -64,7 +65,7 @@ p {
 .container p {
   margin: 127px 0 82px 0;
 }
-.row {
+.content-box .row {
   margin: 70px 0;
 }
 .row p {
@@ -87,4 +88,48 @@ p {
   font-weight: 500;
   line-height: 24px;
   padding: 18px 30px;
+}
+.work-inquiry {
+  background: #f9f7fe;
+  border-radius: 20px;
+  margin-top: 132px;
+  padding: 49px 120px;
+}
+.work-inquiry p {
+  margin: 0;
+}
+.btn-work {
+  margin: 53px 0 48px 0;
+}
+footer {
+  margin: 81px 0 133px 0;
+  text-align: center;
+}
+.email {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.email:hover {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 27px;
+  text-decoration: none;
+}
+.icons {
+  margin-top: 41px;
+}
+.brands {
+  background: #f9f7fe;
+  border: 1px solid #f9f7fe;
+  border-radius: 100%;
+  color: #6c63ff;
+  height: 40px;
+  margin: 0 16.5px;
+  width: 40px;
+}
+.fa-brands {
+  position: relative;
+  top: 7px;
 }
