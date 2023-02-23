@@ -48,14 +48,25 @@ h4 {
   font-weight: 700;
   line-height: 85.31px;
 }
+h5 {
+  color: var(--pharagraph-color);
+  font-size: 18px;
+  line-height: 27px;
+  margin: 28px 0;
+}
 p {
   color: var(--pharagraph-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 27px;
 }
+.active {
+  color: var(--main-color) !important;
+  opacity: 100% !important;
+}
 .btn-hero,
-.btn-work {
+.btn-work,
+.btn-projects {
   background: var(--main-color);
   border: 1px solid var(--main-color);
   color: #fff;
@@ -66,12 +77,23 @@ p {
   padding: 18px 30px;
 }
 .btn-hero:hover,
-.btn-work:hover {
+.btn-work:hover,
+.btn-projects:hover {
   color: #fff;
 }
-.active {
-  color: var(--main-color) !important;
-  opacity: 100% !important;
+.about-page {
+  margin-top: 140px;
+}
+.about-page p {
+  margin: 0 0 48px 0;
+}
+.about-page a {
+  margin: 0;
+}
+.about-page img {
+  border: 3px solid var(--background-color);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .container p {
   margin: 127px 0 82px 0;
@@ -115,7 +137,7 @@ p {
   margin: 53px 0 48px 0;
 }
 footer {
-  margin: 81px 0 133px 0;
+  margin: 81px 0 100px 0;
   text-align: center;
 }
 .email {
@@ -136,10 +158,13 @@ footer {
   background: var(--background-color);
   border: 1px solid var(--background-color);
   border-radius: 100%;
-  color: var(--main-color);
   height: 40px;
   margin: 0 16.5px;
   width: 40px;
+}
+.brands a {
+  text-decoration: none;
+  color: var(--main-color);
 }
 .fa-brands {
   position: relative;
