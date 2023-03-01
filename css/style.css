@@ -54,6 +54,11 @@ h5 {
   line-height: 27px;
   margin: 28px 0;
 }
+h6 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
 p {
   color: var(--pharagraph-color);
   font-size: 16px;
@@ -80,20 +85,6 @@ p {
 .btn-work:hover,
 .btn-projects:hover {
   color: #fff;
-}
-.about-page {
-  margin-top: 140px;
-}
-.about-page p {
-  margin: 0 0 48px 0;
-}
-.about-page a {
-  margin: 0;
-}
-.about-page img {
-  border: 3px solid var(--background-color);
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .container p {
   margin: 127px 0 82px 0;
@@ -158,17 +149,42 @@ footer {
   background: var(--background-color);
   border: 1px solid var(--background-color);
   border-radius: 100%;
+  color: var(--main-color);
   height: 40px;
   margin: 0 16.5px;
   width: 40px;
 }
 .brands a {
   text-decoration: none;
-  color: var(--main-color);
 }
 .fa-brands {
   position: relative;
   top: 7px;
+}
+.about-page,
+.work-page {
+  margin-top: 140px;
+}
+.about-page p {
+  margin: 0 0 48px 0;
+}
+.about-page a {
+  margin: 0;
+}
+.about-page img {
+  border: 3px solid var(--background-color);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.project-image {
+  background: var(--background-color);
+  padding: 20px;
+}
+.work-page h6 {
+  margin-top: 20px;
+}
+.work-page p {
+  margin: 0 0 20px 0;
 }
 @media (max-width: 600px) {
   h1 {
