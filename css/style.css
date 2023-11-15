@@ -20,7 +20,7 @@ nav {
 }
 .hero {
   background: var(--background-color);
-  padding: 273px 0;
+  padding: 190px 0;
   text-align: center;
 }
 h1 {
@@ -54,11 +54,6 @@ h5 {
   line-height: 27px;
   margin: 28px 0;
 }
-h6 {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 36px;
-}
 p {
   color: var(--pharagraph-color);
   font-size: 16px;
@@ -69,9 +64,7 @@ p {
   color: var(--main-color) !important;
   opacity: 100% !important;
 }
-.btn-hero,
-.btn-work,
-.btn-projects {
+.btn-hero {
   background: var(--main-color);
   border: 1px solid var(--main-color);
   color: #fff;
@@ -81,28 +74,31 @@ p {
   margin: 25px;
   padding: 18px 30px;
 }
-.btn-hero:hover,
-.btn-work:hover,
-.btn-projects:hover {
+.btn-hero:hover {
   color: #fff;
 }
 .container p {
-  margin: 127px 0 82px 0;
+  margin: 82px 0;
 }
 .content-box .row {
   margin: 70px 0;
 }
-.row p {
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.grid p {
   line-height: 30px;
   margin: 55px 0;
   opacity: 70%;
 }
 .image {
   background: var(--background-color);
-  padding: 161px 0;
+  padding: 70px 0;
 }
 .projects {
-  padding: 161px 61px;
+  padding: 70px 61px;
 }
 .btn-app {
   border: 1px solid var(--main-color);
@@ -115,31 +111,20 @@ p {
 .btn-app:hover {
   color: var(--main-color);
 }
-.work-inquiry {
-  background: var(--background-color);
-  border-radius: 20px;
-  margin-top: 132px;
-  padding: 49px 120px;
-}
-.work-inquiry p {
-  margin: 0;
-}
-.btn-work {
-  margin: 53px 0 48px 0;
-}
+
 footer {
-  margin: 81px 0 100px 0;
+  margin: 81px 0 30px 0;
   text-align: center;
 }
 .email {
   color: #000;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 36px;
 }
 .email:hover {
   color: rgba(0, 0, 0, 0.7);
-  font-size: 27px;
+  font-size: 25px;
   text-decoration: none;
 }
 .icons {
@@ -164,8 +149,7 @@ footer {
 .code-link a {
   color: var(--main-color);
 }
-.about-page,
-.work-page {
+.about-page {
   margin-top: 140px;
 }
 .about-page p {
@@ -179,29 +163,15 @@ footer {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.project-image {
-  background: var(--background-color);
-  padding: 20px;
-}
-.work-page h6 {
-  margin-top: 20px;
-}
-.work-page p {
-  margin: 0 0 20px 0;
-}
 @media (max-width: 600px) {
   h1 {
     font-size: 70px;
     line-height: 90px;
   }
-  .projects {
-    padding: 90px 61px;
+  .grid {
+    grid-template-columns: 1fr;
   }
   .image {
     display: none;
-  }
-  .work-inquiry,
-  .btn-work {
-    text-align: center;
   }
 }
