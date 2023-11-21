@@ -142,7 +142,8 @@ footer {
   color: var(--main-color);
   text-decoration: none;
 }
-.fa-brands {
+.fa-brands,
+.fa-solid {
   position: relative;
   top: 7px;
 }
